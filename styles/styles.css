@@ -1,0 +1,62 @@
+.links {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    background-color: #3e3434;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+    
+    .apple {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(168, 82, 82);
+        border-radius: 9px;
+        padding: 5px;
+        width: 90px;
+        margin-right: 25px;
+    }
+
+    .kiwi {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(82, 168, 124);
+        border-radius: 9px;
+        padding: 5px;
+        width: 90px;
+        margin-right: 25px;
+    }
+
+    .orange {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(168, 142, 82);
+        border-radius: 9px;
+        padding: 5px;
+        width: 90px;
+        margin-right: 25px;
+    }
+
+    .peach {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(158, 168, 82);
+        border-radius: 9px;
+        padding: 5px;
+        width: 90px;
+    }
+    
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .peach2 {
+        background-image: url("/images/peach.png");
+        height: 400px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
